@@ -46,7 +46,7 @@ spec:
   tls:
     - hosts:
         - api.monkeyking.monster
-      secretName: monkeyking-tls
+      secretName: api-monkeyking-tls
   rules:
     - host: api.monkeyking.monster
       http:
